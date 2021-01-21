@@ -31,9 +31,6 @@ Override size: 1080x1920
 eg.
 `adb shell cmd appops set com.amazon.mShop.android.shopping RUN_IN_BACKGROUND ignore`
 
-## Get info on all packages
-`adb shell dumpsys package packages`
-
 ## uninstall packages
 `adb shell pm uninstall -k --user 0 <package_name>`
 
