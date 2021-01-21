@@ -26,7 +26,7 @@ Override size: 1080x1920
 
 ## Ignore Apps running in Background
 
-`cmd appops set <package_name> RUN_IN_BACKGROUND ignore`
+`adb shell cmd appops set <package_name> RUN_IN_BACKGROUND ignore`
 
 eg.
 `adb shell cmd appops set com.amazon.mShop.android.shopping RUN_IN_BACKGROUND ignore`
