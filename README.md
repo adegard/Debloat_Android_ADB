@@ -34,5 +34,8 @@ eg.
 ## uninstall packages
 `adb shell pm uninstall -k --user 0 <package_name>`
 
+## install packages
+`wget https://f-droid.org/F-Droid.apk`
+
 eg.
-`adb shell pm uninstall -k --user 0 com.cybermedia.cyberflx`
+`adb install F-Droid.apk`
