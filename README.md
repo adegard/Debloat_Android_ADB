@@ -37,5 +37,5 @@ eg.
 ## install packages
 `wget https://f-droid.org/F-Droid.apk`
 
-eg.
+then:
 `adb install F-Droid.apk`
