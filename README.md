@@ -1,3 +1,12 @@
+# resizing screen
+adb shell wm size reset
+adb shell wm size 1080x1920
+
+
+Physical size: 720x1280
+Override size: 1080x1920
+
+
 # Debloat_Android_ADB
 Collection of script (launched with Powershell or comand) to Debloat or Modify Android via  ADB (no root required)
 
