@@ -1,7 +1,8 @@
 # resizing screen
 adb shell wm size reset
+</br>
 adb shell wm size 1080x1920
-
+</br>
 
 Physical size: 720x1280
 Override size: 1080x1920
@@ -48,3 +49,7 @@ eg.
 
 then:
 `adb install F-Droid.apk`
+
+## GPU enhabcement (old phone / tablet)
+`adb shell settings put global sem_enhanced_cpu_responsiveness 1`
+
