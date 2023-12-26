@@ -1,3 +1,19 @@
+# secondary screen
+INstall Taskbar first
+</br>
+adb shell settings put global overlay_display_devices 2560x1080/120
+</br>
+scrcpy --display 3  # My this time <NUMBER_OF_DISPLAY> is 3
+</br>
+adb shell settings put global overlay_display_devices null
+</br>
+see
+</br>
+https://github.com/nikp123/scrcpy-desktop
+</br>and
+
+https://github.com/Genymobile/scrcpy/issues/2114#issue-comment-box
+
 # resizing screen
 adb shell wm size reset
 </br>
