@@ -1,5 +1,6 @@
 ## secondary screen
 Install Taskbar first
+https://github.com/Genymobile/scrcpy/issues/1887
 </br>
 So to summarize:
 
